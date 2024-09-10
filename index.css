@@ -1,12 +1,16 @@
 body {
-    background-color: black;
-    color: white;
     text-align: center;
+    background-image: url("background.jpeg");
+    background-size: cover;       /* Ensures the image covers the entire area */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center 70%;  /* Centers the image */
+    height: 100vh;                /* Sets the height of the body to full viewport height */
+    margin: 0;   
 }
 
 header {
     font-size: 50px;
-    color: cornflowerblue;
+    color: rgb(95, 184, 95);
     text-align: center;
 }
 h2 {
@@ -14,17 +18,16 @@ h2 {
 }
 
 button {
-    background-color: cornflowerblue;
+    background-color: white;
     border-radius: 5px;
     margin: 10px;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     box-shadow: 4px 6px;
-    color:white;
+    color: rgb(95, 184, 95);
 
 }
 button:hover {
-    background-color: white;
-    color: cornflowerblue;
+    color: rgb(95, 184, 95);
     transform: translateY(-10px);
 }
